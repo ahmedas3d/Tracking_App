@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:tracking_app/core/constants.dart';
 import 'package:tracking_app/features/AuthFeature/presentation/view/widgets/custom_button.dart';
+import 'package:tracking_app/features/AuthFeature/presentation/view/widgets/translate_button.dart';
+import 'package:tracking_app/generated/l10n.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -9,69 +11,79 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.backgroundColor,
+      appBar: AppBar(
+        backgroundColor: AppColors.backgroundColor,
+        automaticallyImplyLeading: false,
+        actions: [
+          const TranslateButton(),
+        ],
+      ),
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 12.0),
-        child: Center(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              const Spacer(
-                flex: 1,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            const Spacer(
+              flex: 1,
+            ),
+            const Image(
+              image: AssetImage(
+                'assets/images/welcom_screen.png',
               ),
-              const Image(
-                image: AssetImage(
-                  'assets/images/welcom_screen.png',
+            ),
+            const SizedBox(
+              height: 18,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                Text(
+                  S.of(context).welcomMassage,
+                  style: const TextStyle(
+                    fontSize: 24,
+                  ),
                 ),
-              ),
-              const SizedBox(
-                height: 18,
-              ),
-              const Text(
-                'Welcome to\nFlowery rider app',
-                style: TextStyle(
-                  fontSize: 24,
-                ),
-              ),
-              const SizedBox(
-                height: 18,
-              ),
-              customButton(
-                title: 'Login',
-                onTap: () {},
-                color: AppColors.primaryColor,
-                textColor: AppColors.textColor2,
-              ),
-              const SizedBox(
-                height: 8,
-              ),
-              customButton(
-                title: 'Apply Now',
-                onTap: () {},
-                color: AppColors.backgroundColor,
-                textColor: AppColors.greyColor,
-                borderColor: AppColors.textColor3,
-              ),
-              const Spacer(
-                flex: 3,
-              ),
-              const Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      'Version 1.0.0',
-                      style: TextStyle(
-                        fontSize: 14,
-                        color: AppColors.greyColor,
-                      ),
+              ],
+            ),
+            const SizedBox(
+              height: 18,
+            ),
+            customButton(
+              title: S.of(context).login,
+              onTap: () {},
+              color: AppColors.primaryColor,
+              textColor: AppColors.textColor2,
+            ),
+            const SizedBox(
+              height: 8,
+            ),
+            customButton(
+              title: S.of(context).applyNow,
+              onTap: () {},
+              color: AppColors.backgroundColor,
+              textColor: AppColors.greyColor,
+              borderColor: AppColors.textColor3,
+            ),
+            const Spacer(
+              flex: 3,
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text(
+                    S.of(context).version + ' 1.0.0',
+                    style: const TextStyle(
+                      fontSize: 14,
+                      color: AppColors.greyColor,
                     ),
                   ),
-                ],
-              ),
-            ],
-          ),
+                ),
+              ],
+            ),
+          ],
         ),
       ),
     );

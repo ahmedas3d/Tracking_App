@@ -1,0 +1,9 @@
+{
+  "@@locale": "en",
+  "arabic": "Arabic",
+  "english": "English",
+  "welcomMassage": "Welcome to\nFlowery Rider app",
+  "login": "Login",
+  "applyNow": "Apply Now",
+  "version": "Version"
+}
