@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tracking_app/core/constants.dart';
+import 'package:tracking_app/core/routes/routes.dart';
 import 'package:tracking_app/features/AuthFeature/presentation/view/widgets/custom_button.dart';
 import 'package:tracking_app/features/AuthFeature/presentation/view/widgets/translate_button.dart';
 import 'package:tracking_app/generated/l10n.dart';
@@ -51,7 +52,9 @@ class WelcomeScreen extends StatelessWidget {
             ),
             customButton(
               title: S.of(context).login,
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(context, AppRoutes.loginScreen);
+              },
               color: AppColors.primaryColor,
               textColor: AppColors.textColor2,
             ),
