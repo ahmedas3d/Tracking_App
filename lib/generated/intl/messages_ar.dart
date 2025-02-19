@@ -37,6 +37,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "هل لديك حساب؟",
     ),
+    "apply": MessageLookupByLibrary.simpleMessage("تطبيق"),
     "applyNow": MessageLookupByLibrary.simpleMessage("تقديم الان"),
     "arabic": MessageLookupByLibrary.simpleMessage("العربية"),
     "areYouSureYouWantToLogout": MessageLookupByLibrary.simpleMessage(
@@ -119,6 +120,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "engagement": MessageLookupByLibrary.simpleMessage("ارتباط"),
     "english": MessageLookupByLibrary.simpleMessage("الانجليزية"),
     "enterYourAddress": MessageLookupByLibrary.simpleMessage("ادخل العنوان"),
+    "enterYourFirstLegalName": MessageLookupByLibrary.simpleMessage(
+      "ادخل الاسم الشخصي الاول",
+    ),
+    "enterYourLastLegalName": MessageLookupByLibrary.simpleMessage(
+      "ادخل الاسم الشخصي الاخير",
+    ),
     "enterYourName": MessageLookupByLibrary.simpleMessage("ادخل الاسم"),
     "enteryourConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "أدخل تأكيد كلمة المرور",
@@ -150,6 +157,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "facebook": MessageLookupByLibrary.simpleMessage("فيسبوك"),
     "female": MessageLookupByLibrary.simpleMessage("انثى"),
     "filter": MessageLookupByLibrary.simpleMessage("تصفية"),
+    "firstLegalName": MessageLookupByLibrary.simpleMessage(
+      "الاسم الشخصي الاول",
+    ),
     "firstName": MessageLookupByLibrary.simpleMessage("الاسم الأول"),
     "firstname": MessageLookupByLibrary.simpleMessage("الاسم الاول"),
     "flowers": MessageLookupByLibrary.simpleMessage("الزهور"),
@@ -173,6 +183,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "jewellery": MessageLookupByLibrary.simpleMessage("المجوهرات"),
     "katbKetab": MessageLookupByLibrary.simpleMessage("كتب كتاب"),
     "language": MessageLookupByLibrary.simpleMessage("اللغة"),
+    "lastLegalName": MessageLookupByLibrary.simpleMessage(
+      "الاسم الشخصي الاخير",
+    ),
     "lastName": MessageLookupByLibrary.simpleMessage("الاسم الأخير"),
     "lastname": MessageLookupByLibrary.simpleMessage("الاسم الاخير"),
     "locationPermissionDenied": MessageLookupByLibrary.simpleMessage(
@@ -273,10 +286,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "useCamera": MessageLookupByLibrary.simpleMessage("استخدم الكاميرا"),
     "version": MessageLookupByLibrary.simpleMessage("الاصدار"),
     "viewAll": MessageLookupByLibrary.simpleMessage("عرض الكل"),
+    "wantToBeDelivery": MessageLookupByLibrary.simpleMessage(
+      "تريد ان تكون قائد توصيل؟\nانضم لفريقنا",
+    ),
     "wedding": MessageLookupByLibrary.simpleMessage("الزفاف"),
     "welcomMassage": MessageLookupByLibrary.simpleMessage(
       "مرحبا بك في\nتطبيق Flowery Rider",
     ),
+    "welcome": MessageLookupByLibrary.simpleMessage("مرحبا!!"),
     "whiteWrap": MessageLookupByLibrary.simpleMessage("تغليف أبيض"),
   };
 }

@@ -63,7 +63,9 @@ class WelcomeScreen extends StatelessWidget {
             ),
             customButton(
               title: S.of(context).applyNow,
-              onTap: () {},
+              onTap: () {
+                Navigator.pushNamed(context, AppRoutes.applyScreen);
+              },
               color: AppColors.backgroundColor,
               textColor: AppColors.greyColor,
               borderColor: AppColors.textColor3,

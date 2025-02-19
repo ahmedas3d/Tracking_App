@@ -164,5 +164,12 @@
   "passwordDescription": "كلمة المرور يجب ان تكون فارغة ويجب ان تحتوي على\n 6 حروف كبيرة وواحدة على الاقل",
   "orderdelivered": "تم تسليم الطلب استمتع بطلبك",
   "reorder": "اعادة الطلب",
-  "rate": "تقييم"
+  "rate": "تقييم",
+  "apply": "تطبيق",
+  "welcome": "مرحبا!!",
+  "wantToBeDelivery": "تريد ان تكون قائد توصيل؟\nانضم لفريقنا",
+  "firstLegalName": "الاسم الشخصي الاول",
+  "enterYourFirstLegalName": "ادخل الاسم الشخصي الاول",
+  "lastLegalName": "الاسم الشخصي الاخير",
+  "enterYourLastLegalName": "ادخل الاسم الشخصي الاخير"
 }

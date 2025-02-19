@@ -1289,6 +1289,66 @@ class S {
   String get rate {
     return Intl.message('Rate', name: 'rate', desc: '', args: []);
   }
+
+  /// `Apply`
+  String get apply {
+    return Intl.message('Apply', name: 'apply', desc: '', args: []);
+  }
+
+  /// `Welcome!!`
+  String get welcome {
+    return Intl.message('Welcome!!', name: 'welcome', desc: '', args: []);
+  }
+
+  /// `You want to be a delivery man?\nJoin our team`
+  String get wantToBeDelivery {
+    return Intl.message(
+      'You want to be a delivery man?\nJoin our team',
+      name: 'wantToBeDelivery',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `First Legal Name`
+  String get firstLegalName {
+    return Intl.message(
+      'First Legal Name',
+      name: 'firstLegalName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your first legal name`
+  String get enterYourFirstLegalName {
+    return Intl.message(
+      'Enter your first legal name',
+      name: 'enterYourFirstLegalName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Last Legal Name`
+  String get lastLegalName {
+    return Intl.message(
+      'Last Legal Name',
+      name: 'lastLegalName',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your last legal name`
+  String get enterYourLastLegalName {
+    return Intl.message(
+      'Enter your last legal name',
+      name: 'enterYourLastLegalName',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

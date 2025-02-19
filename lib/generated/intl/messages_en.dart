@@ -37,6 +37,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "alreadyHaveAnAccount": MessageLookupByLibrary.simpleMessage(
       "Already have an account?",
     ),
+    "apply": MessageLookupByLibrary.simpleMessage("Apply"),
     "applyNow": MessageLookupByLibrary.simpleMessage("Apply Now"),
     "arabic": MessageLookupByLibrary.simpleMessage("Arabic"),
     "areYouSureYouWantToLogout": MessageLookupByLibrary.simpleMessage(
@@ -122,6 +123,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterYourAddress": MessageLookupByLibrary.simpleMessage(
       "Enter your Address",
     ),
+    "enterYourFirstLegalName": MessageLookupByLibrary.simpleMessage(
+      "Enter your first legal name",
+    ),
+    "enterYourLastLegalName": MessageLookupByLibrary.simpleMessage(
+      "Enter your last legal name",
+    ),
     "enterYourName": MessageLookupByLibrary.simpleMessage("Enter your name"),
     "enteryourConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "Enter your confirmation password",
@@ -151,6 +158,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "facebook": MessageLookupByLibrary.simpleMessage("Facebook"),
     "female": MessageLookupByLibrary.simpleMessage("Female"),
     "filter": MessageLookupByLibrary.simpleMessage("Filter"),
+    "firstLegalName": MessageLookupByLibrary.simpleMessage("First Legal Name"),
     "firstName": MessageLookupByLibrary.simpleMessage("First Name"),
     "firstname": MessageLookupByLibrary.simpleMessage("First Name"),
     "flowers": MessageLookupByLibrary.simpleMessage("Flowers"),
@@ -174,6 +182,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "jewellery": MessageLookupByLibrary.simpleMessage("Jewellery"),
     "katbKetab": MessageLookupByLibrary.simpleMessage("Katb Ketab"),
     "language": MessageLookupByLibrary.simpleMessage("Language"),
+    "lastLegalName": MessageLookupByLibrary.simpleMessage("Last Legal Name"),
     "lastName": MessageLookupByLibrary.simpleMessage("Last Name"),
     "lastname": MessageLookupByLibrary.simpleMessage("Last Name"),
     "locationPermissionDenied": MessageLookupByLibrary.simpleMessage(
@@ -279,10 +288,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "useCamera": MessageLookupByLibrary.simpleMessage("Camera"),
     "version": MessageLookupByLibrary.simpleMessage("Version"),
     "viewAll": MessageLookupByLibrary.simpleMessage("View All"),
+    "wantToBeDelivery": MessageLookupByLibrary.simpleMessage(
+      "You want to be a delivery man?\nJoin our team",
+    ),
     "wedding": MessageLookupByLibrary.simpleMessage("Wedding"),
     "welcomMassage": MessageLookupByLibrary.simpleMessage(
       "Welcome to\nFlowery Rider app",
     ),
+    "welcome": MessageLookupByLibrary.simpleMessage("Welcome!!"),
     "whiteWrap": MessageLookupByLibrary.simpleMessage("White wrap"),
   };
 }

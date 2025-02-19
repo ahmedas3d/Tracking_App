@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tracking_app/features/AuthFeature/presentation/view/screens/apply_screen.dart';
 import 'package:tracking_app/features/AuthFeature/presentation/view/screens/forgot_password_screen.dart';
 import 'package:tracking_app/features/AuthFeature/presentation/view/screens/login_screen.dart';
 import 'package:tracking_app/features/AuthFeature/presentation/view/screens/email_verification.dart';
@@ -9,6 +10,7 @@ class AppRoutes {
   static const String loginScreen = '/loginScreen';
   static const String forgotPasswordScreen = '/forgotPasswordScreen';
   static const String emailVerificationScreen = '/emailVerificationScreen';
+  static const String applyScreen = '/applyScreen';
 
   static Route<dynamic> generateRoute(RouteSettings settings) {
     switch (settings.name) {
@@ -18,6 +20,8 @@ class AppRoutes {
         return MaterialPageRoute(builder: (_) => const LoginScreen());
       case forgotPasswordScreen:
         return MaterialPageRoute(builder: (_) => const ForgotScreen());
+      case applyScreen:
+        return MaterialPageRoute(builder: (_) => const ApplyScreen());
       case emailVerificationScreen:
         return MaterialPageRoute(
             builder: (_) => const EmailVerificationScreen());

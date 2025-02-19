@@ -163,5 +163,12 @@
   "passwordDescription": "Password must not be empty and must contain\n 6 characters with upper case letter and one\n number at least",
   "orderdelivered": "Order delivered enjoy your order",
   "reorder": "Reorder",
-  "rate": "Rate"
+  "rate": "Rate",
+  "apply": "Apply",
+  "welcome": "Welcome!!",
+  "wantToBeDelivery": "You want to be a delivery man?\nJoin our team",
+  "firstLegalName": "First Legal Name",
+  "enterYourFirstLegalName": "Enter your first legal name",
+  "lastLegalName": "Last Legal Name",
+  "enterYourLastLegalName": "Enter your last legal name"
 }
