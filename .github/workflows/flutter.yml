@@ -3,12 +3,12 @@ name: Flutter CI/CD
 on:
   push:
     branches:
-      - main
+      - master
       - publish_to_firebase
 
   pull_request:
     branches:
-      - main
+      - master
       - publish_to_firebase
 
 jobs:
