@@ -36,6 +36,12 @@ jobs:
       - name: Run Our Test
         run: flutter test
 
+      - name: Upload Apk
+        uses: actions/upload-artifact@v3
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk
+
       - name: Build APK
         run: flutter build apk --release
       - run: ls build/app/outputs/flutter-apk
