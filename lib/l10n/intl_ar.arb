@@ -171,5 +171,15 @@
   "firstLegalName": "الاسم الشخصي الاول",
   "enterYourFirstLegalName": "ادخل الاسم الشخصي الاول",
   "lastLegalName": "الاسم الشخصي الاخير",
-  "enterYourLastLegalName": "ادخل الاسم الشخصي الاخير"
+  "enterYourLastLegalName": "ادخل الاسم الشخصي الاخير",
+  "selectAVehicleType": "حدد نوع السيارة",
+  "selectACountry": "حدد الدولة",
+  "vehicleNumber": "رقم السيارة",
+  "enterYourVehicleNumber": "ادخل رقم السيارة",
+  "idNumber": "رقم الهوية",
+  "enterYourIdNumber": "ادخل رقم الهوية",
+  "driverLicense": "قم بتصوير أو تحميل رخصة السائق",
+  "uploadIdImage": "تحميل صورة الهوية",
+  "yourApplicationSubmitted": "تم تقديم طلبك\n بنجاح!",
+  "yourApplicationWillBeReviewed": "شكرا لتقديمك للطلب، سيتم\nمراجعة الطلب وسيتم\nالرد عليك قريبا."
 }

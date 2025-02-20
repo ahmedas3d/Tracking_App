@@ -46,6 +46,16 @@
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>CFBundleLocalizations</key>
+
+	<key>NSCameraUsageDescription</key>
+	<string>نحتاج إلى الوصول إلى الكاميرا لالتقاط صورة للرخصة.</string>
+
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>نحتاج إلى الوصول إلى مكتبة الصور لتحميل صورة الرخصة.</string>
+
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>نحتاج إلى إذن لحفظ الصور الملتقطة.</string>
+
 <array>
     <string>en</string>
 	<string>ar</string>

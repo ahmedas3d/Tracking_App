@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tracking_app/core/constants.dart';
+import 'package:tracking_app/generated/l10n.dart';
 
 class CountryPickerField extends StatelessWidget {
   final String selectedCountry;
@@ -21,7 +22,7 @@ class CountryPickerField extends StatelessWidget {
         child: TextField(
           decoration: InputDecoration(
             hintText: selectedCountry.isEmpty
-                ? 'Select a country'
+                ? S.of(context).selectACountry
                 : '$selectedFlag $selectedCountry',
             hintStyle:
                 const TextStyle(fontSize: 16, color: AppColors.textColor3),

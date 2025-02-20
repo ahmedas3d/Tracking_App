@@ -2,7 +2,7 @@
   "@@locale": "en",
   "arabic": "Arabic",
   "english": "English",
-  "welcomMassage": "Welcome to\nFlowery Rider app",
+  "welcomMassage": "Welcome to\nFlowery Rider App",
   "login": "Login",
   "applyNow": "Apply Now",
   "version": "Version",
@@ -170,5 +170,15 @@
   "firstLegalName": "First Legal Name",
   "enterYourFirstLegalName": "Enter your first legal name",
   "lastLegalName": "Last Legal Name",
-  "enterYourLastLegalName": "Enter your last legal name"
+  "enterYourLastLegalName": "Enter your last legal name",
+  "selectAVehicleType": "Select a vehicle type",
+  "selectACountry": "Select a country",
+  "vehicleNumber": "Vehicle Number",
+  "enterYourVehicleNumber": "Enter your vehicle number",
+  "idNumber": "ID Number",
+  "enterYourIdNumber": "Enter your ID number",
+  "driverLicense": "Photocopy or upload your driver's license",
+  "uploadIdImage": "Upload ID Image",
+  "yourApplicationSubmitted": "Your Application Has Been\nSubmitted!",
+  "yourApplicationWillBeReviewed": "Thank you for providing your application,\nwe will review your application and will\nget back to you soon."
 }

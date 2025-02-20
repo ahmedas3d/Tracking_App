@@ -1349,6 +1349,101 @@ class S {
       args: [],
     );
   }
+
+  /// `Select a vehicle type`
+  String get selectAVehicleType {
+    return Intl.message(
+      'Select a vehicle type',
+      name: 'selectAVehicleType',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Select a country`
+  String get selectACountry {
+    return Intl.message(
+      'Select a country',
+      name: 'selectACountry',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Vehicle Number`
+  String get vehicleNumber {
+    return Intl.message(
+      'Vehicle Number',
+      name: 'vehicleNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enter your vehicle number`
+  String get enterYourVehicleNumber {
+    return Intl.message(
+      'Enter your vehicle number',
+      name: 'enterYourVehicleNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ID Number`
+  String get idNumber {
+    return Intl.message('ID Number', name: 'idNumber', desc: '', args: []);
+  }
+
+  /// `Enter your ID number`
+  String get enterYourIdNumber {
+    return Intl.message(
+      'Enter your ID number',
+      name: 'enterYourIdNumber',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Photocopy or upload your driver's license`
+  String get driverLicense {
+    return Intl.message(
+      'Photocopy or upload your driver\'s license',
+      name: 'driverLicense',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Upload ID Image`
+  String get uploadIdImage {
+    return Intl.message(
+      'Upload ID Image',
+      name: 'uploadIdImage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Your Application Has Been\nSubmitted!`
+  String get yourApplicationSubmitted {
+    return Intl.message(
+      'Your Application Has Been\nSubmitted!',
+      name: 'yourApplicationSubmitted',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Thank you for providing your application,\nwe will review your application and will\nget back to you soon.`
+  String get yourApplicationWillBeReviewed {
+    return Intl.message(
+      'Thank you for providing your application,\nwe will review your application and will\nget back to you soon.',
+      name: 'yourApplicationWillBeReviewed',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

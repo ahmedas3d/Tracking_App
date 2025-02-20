@@ -22,3 +22,29 @@ class AppColors {
   static const Color textColor2 = Color(0xFFf9f9f9);
   static const Color textColor3 = Color(0xFFa6a6a6);
 }
+
+final List<Map<String, String>> countries = [
+  {'name': 'Egypt', 'flag': '🇪🇬'},
+  {'name': 'Saudi Arabia', 'flag': '🇸🇦'},
+  {'name': 'United Arab Emirates', 'flag': '🇦🇪'},
+  {'name': 'Kuwait', 'flag': '🇰🇼'},
+  {'name': 'Qatar', 'flag': '🇶🇦'},
+  {'name': 'Oman', 'flag': '🇴🇲'},
+  {'name': 'Iraq', 'flag': '🇮🇶'},
+  {'name': 'Jordan', 'flag': '🇯🇴'},
+  {'name': 'Lebanon', 'flag': '🇱🇧'},
+  {'name': 'Morocco', 'flag': '🇲🇦'},
+  {'name': 'Algeria', 'flag': '🇩🇿'},
+  {'name': 'Tunisia', 'flag': '🇹🇳'},
+  {'name': 'Libya', 'flag': '🇱🇾'},
+  {'name': 'Sudan', 'flag': '🇸🇩'},
+  {'name': 'Somalia', 'flag': '🇸🇴'},
+];
+
+final List<String> vehicleTypes = [
+  'Car',
+  'Motorcycle',
+  'Truck',
+  'Bicycle',
+  'Scooter',
+];

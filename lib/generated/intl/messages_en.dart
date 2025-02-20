@@ -106,6 +106,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "donthaveanaccount": MessageLookupByLibrary.simpleMessage(
       "Don\'t have an account?",
     ),
+    "driverLicense": MessageLookupByLibrary.simpleMessage(
+      "Photocopy or upload your driver\'s license",
+    ),
     "editProfile": MessageLookupByLibrary.simpleMessage("Edit Profile"),
     "email": MessageLookupByLibrary.simpleMessage("Email"),
     "emailVerification": MessageLookupByLibrary.simpleMessage(
@@ -126,10 +129,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterYourFirstLegalName": MessageLookupByLibrary.simpleMessage(
       "Enter your first legal name",
     ),
+    "enterYourIdNumber": MessageLookupByLibrary.simpleMessage(
+      "Enter your ID number",
+    ),
     "enterYourLastLegalName": MessageLookupByLibrary.simpleMessage(
       "Enter your last legal name",
     ),
     "enterYourName": MessageLookupByLibrary.simpleMessage("Enter your name"),
+    "enterYourVehicleNumber": MessageLookupByLibrary.simpleMessage(
+      "Enter your vehicle number",
+    ),
     "enteryourConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "Enter your confirmation password",
     ),
@@ -177,6 +186,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "highesPrice": MessageLookupByLibrary.simpleMessage("Highes Price"),
     "home": MessageLookupByLibrary.simpleMessage("Home"),
+    "idNumber": MessageLookupByLibrary.simpleMessage("ID Number"),
     "inStock": MessageLookupByLibrary.simpleMessage("In Stock"),
     "itIsAGift": MessageLookupByLibrary.simpleMessage("It is a gift"),
     "jewellery": MessageLookupByLibrary.simpleMessage("Jewellery"),
@@ -265,6 +275,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "sacedAddresses": MessageLookupByLibrary.simpleMessage("Saved Addresses"),
     "search": MessageLookupByLibrary.simpleMessage("Search"),
     "seeYouSoon": MessageLookupByLibrary.simpleMessage("See you soon"),
+    "selectACountry": MessageLookupByLibrary.simpleMessage("Select a country"),
+    "selectAVehicleType": MessageLookupByLibrary.simpleMessage(
+      "Select a vehicle type",
+    ),
     "sendCodeIntoYourEmail": MessageLookupByLibrary.simpleMessage(
       "Please enter your code that send to your\n email address.",
     ),
@@ -285,7 +299,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "total": MessageLookupByLibrary.simpleMessage("Total"),
     "trackOrder": MessageLookupByLibrary.simpleMessage("Track Order"),
     "update": MessageLookupByLibrary.simpleMessage("Update"),
+    "uploadIdImage": MessageLookupByLibrary.simpleMessage("Upload ID Image"),
     "useCamera": MessageLookupByLibrary.simpleMessage("Camera"),
+    "vehicleNumber": MessageLookupByLibrary.simpleMessage("Vehicle Number"),
     "version": MessageLookupByLibrary.simpleMessage("Version"),
     "viewAll": MessageLookupByLibrary.simpleMessage("View All"),
     "wantToBeDelivery": MessageLookupByLibrary.simpleMessage(
@@ -297,5 +313,11 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "welcome": MessageLookupByLibrary.simpleMessage("Welcome!!"),
     "whiteWrap": MessageLookupByLibrary.simpleMessage("White wrap"),
+    "yourApplicationSubmitted": MessageLookupByLibrary.simpleMessage(
+      "Your Application Has Been\nSubmitted!",
+    ),
+    "yourApplicationWillBeReviewed": MessageLookupByLibrary.simpleMessage(
+      "Thank you for providing your application,\nwe will review your application and will\nget back to you soon.",
+    ),
   };
 }

@@ -103,6 +103,9 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "discount": MessageLookupByLibrary.simpleMessage("خصم"),
     "donthaveanaccount": MessageLookupByLibrary.simpleMessage("ليس لديك حساب؟"),
+    "driverLicense": MessageLookupByLibrary.simpleMessage(
+      "قم بتصوير أو تحميل رخصة السائق",
+    ),
     "editProfile": MessageLookupByLibrary.simpleMessage("تعديل الملف الشخصي"),
     "email": MessageLookupByLibrary.simpleMessage("البريد الإلكتروني"),
     "emailVerification": MessageLookupByLibrary.simpleMessage(
@@ -123,10 +126,16 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterYourFirstLegalName": MessageLookupByLibrary.simpleMessage(
       "ادخل الاسم الشخصي الاول",
     ),
+    "enterYourIdNumber": MessageLookupByLibrary.simpleMessage(
+      "ادخل رقم الهوية",
+    ),
     "enterYourLastLegalName": MessageLookupByLibrary.simpleMessage(
       "ادخل الاسم الشخصي الاخير",
     ),
     "enterYourName": MessageLookupByLibrary.simpleMessage("ادخل الاسم"),
+    "enterYourVehicleNumber": MessageLookupByLibrary.simpleMessage(
+      "ادخل رقم السيارة",
+    ),
     "enteryourConfirmPassword": MessageLookupByLibrary.simpleMessage(
       "أدخل تأكيد كلمة المرور",
     ),
@@ -178,6 +187,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "highesPrice": MessageLookupByLibrary.simpleMessage("السعر الاكثر"),
     "home": MessageLookupByLibrary.simpleMessage("الرئيسية"),
+    "idNumber": MessageLookupByLibrary.simpleMessage("رقم الهوية"),
     "inStock": MessageLookupByLibrary.simpleMessage("متوفر"),
     "itIsAGift": MessageLookupByLibrary.simpleMessage("إنها هدية"),
     "jewellery": MessageLookupByLibrary.simpleMessage("المجوهرات"),
@@ -263,6 +273,10 @@ class MessageLookup extends MessageLookupByLibrary {
     "sacedAddresses": MessageLookupByLibrary.simpleMessage("العناوين المحفوظة"),
     "search": MessageLookupByLibrary.simpleMessage("بحث"),
     "seeYouSoon": MessageLookupByLibrary.simpleMessage("الي اللقاء"),
+    "selectACountry": MessageLookupByLibrary.simpleMessage("حدد الدولة"),
+    "selectAVehicleType": MessageLookupByLibrary.simpleMessage(
+      "حدد نوع السيارة",
+    ),
     "sendCodeIntoYourEmail": MessageLookupByLibrary.simpleMessage(
       "يرجى ادخال الرمز الذي تم ارساله لعنوان البريد الالكتروني الخاص بك.",
     ),
@@ -283,7 +297,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "total": MessageLookupByLibrary.simpleMessage("المجموع الكلي"),
     "trackOrder": MessageLookupByLibrary.simpleMessage("تتبع الطلب"),
     "update": MessageLookupByLibrary.simpleMessage("تحديث"),
+    "uploadIdImage": MessageLookupByLibrary.simpleMessage("تحميل صورة الهوية"),
     "useCamera": MessageLookupByLibrary.simpleMessage("استخدم الكاميرا"),
+    "vehicleNumber": MessageLookupByLibrary.simpleMessage("رقم السيارة"),
     "version": MessageLookupByLibrary.simpleMessage("الاصدار"),
     "viewAll": MessageLookupByLibrary.simpleMessage("عرض الكل"),
     "wantToBeDelivery": MessageLookupByLibrary.simpleMessage(
@@ -295,5 +311,11 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "welcome": MessageLookupByLibrary.simpleMessage("مرحبا!!"),
     "whiteWrap": MessageLookupByLibrary.simpleMessage("تغليف أبيض"),
+    "yourApplicationSubmitted": MessageLookupByLibrary.simpleMessage(
+      "تم تقديم طلبك\n بنجاح!",
+    ),
+    "yourApplicationWillBeReviewed": MessageLookupByLibrary.simpleMessage(
+      "شكرا لتقديمك للطلب، سيتم\nمراجعة الطلب وسيتم\nالرد عليك قريبا.",
+    ),
   };
 }
